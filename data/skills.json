@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Programming",
+    "icon": "code",
+    "skills": ["Python", "SQL", "PHP", "JavaScript", "CSS"]
+  },
+  {
+    "category": "Data Analysis",
+    "icon": "activity",
+    "skills": ["SQL", "Pandas", "NumPy", "Statistics & Probability", "Excel / Google Sheets"]
+  },
+  {
+    "category": "Visualization",
+    "icon": "bar-chart-2",
+    "skills": ["Tableau", "Matplotlib", "Power BI", "Looker Studio"]
+  },
+  {
+    "category": "Databases",
+    "icon": "database",
+    "skills": ["MySQL", "PostgreSQL", "MongoDB"]
+  },
+  {
+    "category": "Machine Learning",
+    "icon": "cpu",
+    "skills": ["Scikit-learn", "Neural Network", "Regression", "Classification"]
+  },
+  {
+    "category": "Tools",
+    "icon": "tool",
+    "skills": ["Git & GitHub", "Jupyter Notebook", "VS Code", "Google Colab"]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "English Language Test (ELT) – Universitas Padjadjaran",
+    "issuer": "Score: 553 (TOEFL ITP equivalent)",
+    "date": "Valid until: 28 Jan 2028",
+    "credentialUrl": "https://drive.google.com/file/d/1feeqgh38n6JSPUomWhWjUidbXaL5Qvpx/view?usp=sharing",
+    "logo": "assets/icons/unpad.svg"
+  },
+  {
+    "name": "DQLab – Bootcamp Machine Learning & AI for Beginner, Batch 12",
+    "issuer": "DQLab",
+    "date": "2024",
+    "credentialUrl": "https://academy.dqlab.id/Certificate_check/result/DQLABBMLABB12EDHUHP",
+    "logo": "assets/icons/tensorflow.svg"
+  },
+  {
+    "name": "DQLab – Database & SQL Track",
+    "issuer": "DQLab",
+    "date": "2026",
+    "credentialUrl": "https://academy.dqlab.id/Certificate_check/result/DQLABSQLFNEGFJHWH",
+    "logo": "assets/icons/microsoft.svg"
+  },
+  {
+    "name": "IBM – Introduction to Computer Vision and Image Processing",
+    "issuer": "IBM, Coursera",
+    "date": "2025",
+    "credentialUrl": "https://coursera.org/share/6e016b3093b609e7a67b1207995b09e0",
+    "logo": "assets/icons/coursera.svg"
+  }
+]

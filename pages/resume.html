@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume — Ayu Kartika</title>
+  <meta name="description" content="Download or preview Ayu Kartika's resume — Data Analyst / BI Analyst." />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg" />
+  <link rel="stylesheet" href="../assets/css/output.css" />
+  <script>
+    (function () {
+      var saved = localStorage.getItem("portfolio-theme");
+      var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (saved === "dark" || (!saved && prefersDark)) document.documentElement.classList.add("dark");
+    })();
+  </script>
+</head>
+<body class="min-h-screen bg-white font-body dark:bg-navy-900">
+  <header class="mx-auto flex max-w-4xl items-center justify-between px-5 py-6 sm:px-8">
+    <a href="../index.html" class="font-display text-lg font-extrabold text-navy-800 dark:text-white">
+      ayu<span class="text-accent">.</span>dev
+    </a>
+    <a href="../assets/pdf/CV_Hazel-Pernanda-Putra.pdf" download class="inline-flex items-center gap-2 rounded-xl bg-navy-700 px-4 py-2.5 text-sm font-semibold text-white dark:bg-accent">
+      Download PDF
+    </a>
+  </header>
+
+  <main class="mx-auto max-w-4xl px-5 pb-20 sm:px-8">
+    <h1 class="text-3xl font-extrabold tracking-tight text-navy-900 dark:text-white">Resume</h1>
+    <p class="mt-2 text-ink-soft dark:text-navy-300">Ayu Kartika &mdash; Data Analyst / BI Analyst</p>
+
+    <div class="mt-8 overflow-hidden rounded-2xl border border-navy-100 shadow-soft dark:border-navy-700">
+      <object data="../assets/pdf/resume.pdf" type="application/pdf" class="h-[85vh] w-full" aria-label="Resume PDF preview">
+        <div class="flex h-64 flex-col items-center justify-center gap-3 bg-white p-6 text-center dark:bg-navy-800">
+          <p class="text-sm text-ink-soft dark:text-navy-300">Your browser can't preview PDFs inline.</p>
+          <a href="../assets/pdf/resume.pdf" download class="inline-flex items-center gap-2 rounded-xl bg-navy-700 px-4 py-2.5 text-sm font-semibold text-white dark:bg-accent">
+            Download PDF
+          </a>
+        </div>
+      </object>
+    </div>
+  </main>
+</body>
+</html>

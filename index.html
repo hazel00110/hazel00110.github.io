@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <title>Hazel Pernanda Putra — Data Analyst &amp; BI Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Ayu Kartika, a Data Analyst / BI Analyst specializing in SQL, dashboards, and applied machine learning. Explore projects, experience, and resume." />
+  <meta name="keywords" content="data analyst, business intelligence analyst, data scientist, machine learning engineer, portfolio, SQL, Python, Tableau, Power BI" />
+  <meta name="author" content="Hazel Pernanda" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://hazel00110.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hazel Pernanda — Data Analyst & BI Analyst Portfolio" />
+  <meta property="og:description" content="Portfolio of Hazel Pernanda Putra, a Data Analyst / BI Analyst specializing in SQL, dashboards, and applied machine learning." />
+  <meta property="og:url" content="https://hazel00110.github.io/" />
+  <meta property="og:image" content="assets/images/og-cover.jpg" />
+  <meta property="og:site_name" content="Hazel Pernanda — Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hazel Pernanda — Data Analyst & BI Analyst Portfolio" />
+  <meta name="twitter:description" content="Portfolio of Hazel Pernanda Putra, a Data Analyst / BI Analyst specializing in SQL, dashboards, and applied machine learning." />
+  <meta name="twitter:image" content="assets/images/og-cover.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.png" />
+  <link rel="alternate icon" href="public/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/icons/web.png" />
+
+  <!-- Fonts: Inter (body), Manrope (display), JetBrains Mono (data/code accents) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="assets/css/output.css" />
+
+  <!-- Prevent a flash of the wrong theme before app.js loads -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem("portfolio-theme");
+      var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (saved === "dark" || (!saved && prefersDark)) {
+        document.documentElement.classList.add("dark");
+      }
+    })();
+  </script>
+</head>
+
+<body class="font-body">
+  <!-- Loading animation -->
+  <div
+    data-loader
+    class="fixed inset-0 z-[100] grid place-items-center bg-white transition-opacity duration-400 dark:bg-navy-900"
+  >
+    <div class="flex flex-col items-center gap-3">
+      <span class="h-9 w-9 animate-spin rounded-full border-2 border-navy-200 border-t-accent dark:border-navy-700"></span>
+      <p class="font-mono text-xs uppercase tracking-[0.2em] text-ink-soft dark:text-navy-400">Loading portfolio…</p>
+    </div>
+  </div>
+
+  <a
+    href="#main-content"
+    class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white"
+  >
+    Skip to content
+  </a>
+
+  <div data-component="navbar"></div>
+
+  <main id="main-content">
+    <div data-component="hero"></div>
+    <div data-component="about"></div>
+    <div data-component="skills"></div>
+    <div data-component="projects"></div>
+    <div data-component="experience"></div>
+    <div data-component="education"></div>
+    <div data-component="certifications"></div>
+    <div data-component="contact"></div>
+  </main>
+
+  <div data-component="footer"></div>
+
+  <!-- Icon set: https://lucide.dev (MIT licensed) -->
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.372.0/dist/umd/lucide.min.js"></script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

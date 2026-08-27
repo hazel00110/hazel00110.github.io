@@ -1,0 +1,37 @@
+[
+  {
+    "degree": "Mathematics Bachelor ",
+    "institution": "Universitas Padjadjaran",
+    "location": "Jatinangor, Indonesia",
+    "period": "2020 \u2014 2026",
+    "details": "Undergraduate thesis: \"Spices Image Classification using Convolutional Neural Network with Transfer Learning EfficientNetB0\""
+  },
+  {
+    "degree": "DQLab – Python & Data Science",
+    "institution": "DQLab",
+    "location": "Online",
+    "period": "2023 - 2026",
+    "details": "Completed a series of Python modules covering fundamentals, data wrangling, REGEX-based text processing, and data science applications (Python for Data Professional, Part 1–3)."
+  },
+  {
+    "degree": "DQLab – Bootcamp Machine Learning & AI for Beginner, Batch 12",
+    "institution": "DQLab",
+    "location": "Online",
+    "period": "2024",
+    "details": "Learned foundational skills in data extraction, data cleaning, data standardization, relational data integration, and data quality validation to prepare datasets for further analysis. "
+  },
+  {
+    "degree": "IBM – Introduction to Computer Vision and Image Processing",
+    "institution": "IBM, Coursera",
+    "location": "Online",
+    "period": "2025",
+    "details": "Developed practical skills in computer vision and image processing using Python, Pillow, and OpenCV, including image filtering, enhancement, classification, object detection, and transfer learning with a pre-trained deep neural network for image classification."
+  },
+  {
+    "degree": "DQLab – Database & SQL Track",
+    "institution": "DQLab",
+    "location": "Online",
+    "period": "2026",
+    "details": "Completed a series of SQL modules covering SELECT statements, JOIN & UNION, logical operators, GROUP BY & HAVING, text processing with REGEX, and database management."
+  }
+]

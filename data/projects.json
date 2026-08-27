@@ -1,0 +1,55 @@
+[
+  {
+    "id": "grocery-analysis",
+    "title": "Grocery Inventory Analysis",
+    "category": "Data Analysis",
+    "thumbnail": "assets/images/projects/grocery-analysis.png",
+    "description": "Built an end-to-end inventory analytics pipeline (Python, PostgreSQL, Tableau) analyzing 990 products and 350 suppliers to surface stockout risk, revenue priority, and supplier reliability.",
+    "technologies": ["Python", "Pandas", "PostgreSQL", "SQL", "Tableu"],
+    "githubUrl": "https://github.com/hazel00110/grocery_inventory_analysis",
+    "liveDemo": "https://public.tableau.com/views/GroceryInventoryAnalysis_17808873066200/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+    "caseStudy": "",
+    "featured": true,
+    "status": "Completed"
+  },
+  {
+    "id": "nata-loka-website",
+    "title": "Nataloka - Interior Design Website",
+    "category": "Web Development",
+    "thumbnail": "assets/images/projects/nata-loka.png",
+    "description": "Designed and developed a CMS-driven portfolio system to enable flexible content management. Structured scalable content models for efficient project organization and future expansion. Built modular and maintainable components using PHP, HTML, CSS, and JavaScript. Delivered a responsive and consistent user experience across devices.",
+    "technologies": ["PHP", "HTML", "CSS", "JavaScript"],
+    "githubUrl": "",
+    "liveDemo": "",
+    "caseStudy": "",
+    "link": "https://nataloka.id/",
+    "featured": true,
+    "status": "Completed"
+  },
+  {
+    "id": "spices-image-classification",
+    "title": "Spices Image Classification",
+    "category": "Machine Learning",
+    "thumbnail": "assets/images/projects/spices-classification.jpg",
+    "description": "Developed a convolutional neural network (CNN) with EfficientNetB0 model to classify images of spices with 95% accuracy, utilizing data augmentation and transfer learning techniques.",
+    "technologies": ["Python", "TensorFlow", "Keras", "OpenCV"],
+    "githubUrl": "https://github.com/hazel00110/spices_classification_efficientnetb0",
+    "liveDemo": "",
+    "caseStudy": "",
+    "featured": true,
+    "status": "Completed"
+  },
+  {
+    "id": "world-food-analysis",
+    "title": "World Food Analysis",
+    "category": "Data Analysis",
+    "thumbnail": "assets/images/projects/world-food-analysis.jpg",
+    "description": "Analyzed global food trends and patterns using a variety of data sources, providing insights into consumer behavior and market dynamics.",
+    "technologies": ["Python", "Pandas", "PostgreSQL", "Tableau"],
+    "githubUrl": "",
+    "liveDemo": "",
+    "caseStudy": "",
+    "featured": false,
+    "status": "In Progress"
+  }
+]

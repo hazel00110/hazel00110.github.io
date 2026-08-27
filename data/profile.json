@@ -1,0 +1,65 @@
+{
+  "name": "Hazel Pernanda Putra",
+  "titles": [
+    "Data Analyst",
+    "BI Analyst",
+    "Data Scientist"
+  ],
+  "tagline": "Math graduate turning data into decisions.",
+  "intro": "Mathematics graduate with a strong passion for data analysis and stochastic modelling. Strengthened both analytical and programming skills through data-driven projects. Currently working as a freelance mathematics tutor and data annotator, further enhancing problem-solving, and time management skills. Eager to apply analytical knowledge to real-world challenges and contribute to impactful projects as data analyst.",
+  "location": "Sukabumi, Indonesia",
+  "availability": "Open to Data Analyst / BI Analyst roles (entry-level)",
+  "email": "hazelfernanda001@gmail.com",
+  "phone": "+625163506583",
+  "profileImage": "assets/images/profile.jpg",
+  "photo": {
+    "src": "assets/images/profile.jpg",
+    "alt": "Foto profil Hazel Pernanda Putra",
+    "shape": "rounded",
+    "ratio": "6 / 5",
+    "focalPoint": "50% 60%",
+    "zoom": 1.2,
+    "frame": true,
+    "grayscale": false,
+    "badge": {
+      "enabled": true,
+      "text": "Open to work",
+      "dotColor": "bg-emerald-500"
+    }
+  },
+  "resumePdf": "assets/pdf/CV_Hazel-Pernanda-Putra.pdf",
+  "about": {
+    "summary": "I'm a math graduate with a solid grounding in statistics, probability, and analytical thinking. I'm focused on data analysis, business intelligence, and data science \u2014 building projects that turn raw datasets into clear, decision-ready insight using SQL, Python, and dashboarding tools.",
+    "objective": "Looking for an entry-level Data Analyst, BI Analyst, or Data Scientist role where I can apply my math background to real business problems and keep growing technically.",
+    "interests": [
+      "Statistics & probability",
+      "SQL & Data Analytics",
+      "Data visualization"
+    ]
+  },
+  "stats": [
+    {
+      "label": "Personal data projects",
+      "value": "[angka]"
+    },
+    {
+      "label": "Years since graduation",
+      "value": "[angka]"
+    },
+    {
+      "label": "SQL queries practiced",
+      "value": "[angka]+"
+    },
+    {
+      "label": "Datasets analyzed",
+      "value": "[angka]"
+    }
+  ],
+  "seo": {
+    "title": "Hazel Pernanda \u2014 Data Analyst & BI Analyst Portfolio",
+    "description": "Portfolio of Hazel Pernanda, a Data Analyst / BI Analyst specializing in SQL, dashboards, and applied machine learning. Explore projects, experience, and resume.",
+    "keywords": "data analyst, business intelligence analyst, data scientist, machine learning engineer, portfolio, SQL, Python, Tableau, Power BI",
+    "url": "https://hazelpernanda.dev",
+    "ogImage": "assets/images/og-cover.jpg"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "data-analyst-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A premium, static, mobile-first portfolio for Data Analysts / BI Analysts / Data Scientists / ML Engineers.",
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "serve": "npx http-server . -p 5500 -c-1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
